@@ -1,11 +1,11 @@
 const { Telegraf, Markup } = require("telegraf");
-const TOKEN = "YOUR BOT TOKEN";
+const TOKEN = "7221681879:AAFyNQ2wV8C41yQnYwD0MQvTO-KhbezrAmg";
 const bot = new Telegraf(TOKEN);
 const express = require("express");
 const app = express()
 app.use(express.json())
-const web_link = "YOUR APP URL";
-const community_link = "https://t.me/concept_developer";
+const web_link = "https://maxitap.vercel.app/";
+const community_link = "https://t.me/haxitapbot";
 
 
 bot.start((ctx) => {
